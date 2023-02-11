@@ -11,7 +11,7 @@
     "create-local": "graph create --node http://localhost:8020/ ultimexfi/blocklytics",
     "remove-local": "graph remove --node http://localhost:8020/ ultimexfi/blocklytics",
     "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 ultimexfi/blocklytics subgraph.yaml",
-    "deploy-local:testnet": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 ultimexfi/blocklytics:testnet subgraph.testnet.yaml"
+    "deploy-local:testnet": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 ultimexfi/blocklytics subgraph.testnet.yaml"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "^0.17.1",
